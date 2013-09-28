@@ -1,77 +1,55 @@
-﻿<html>
+<html>
     <head>
         <title>Home</title>
         <link href="css/axurerp_pagespecificstyles.css" type="text/css" rel="stylesheet">
         <link rel="shortcut icon" href="http://lbts6.com/favicon.ico" />
-     <!--[if IE 6]>
-     <link href="" type="text/css" rel="stylesheet">
-     <![endif]-->       
-    <!-- Test chat from chatwing __________________________________________________________________________________-->
-    <script type="text/javascript">
-  (function(d) {
-    var cwjs, id='chatwing-js';  if(d.getElementById(id)) {return;}
-    cwjs = d.createElement('script'); cwjs.type = 'text/javascript'; cwjs.async = true; cwjs.id = id
-    cwjs.src = "//chatwing.com/code/7f7b6621-4ec1-4ae4-8ee4-ebdc3712401c/popout";
-    d.getElementsByTagName('head')[0].appendChild(cwjs);
-  })(document);
-</script>
-    <!-- End Test Chat ____________________________________________________________________________________________-->    
-        
+        <!--[if IE 6]>
+        <link href="" type="text/css" rel="stylesheet">
+        <![endif]-->       
     </head>
     
 <body>
+   
     <div id="chat_container">
-    <!-- this was where the background for the chat was. I broke it on purpose, so leave it till I fix it -->
+        <!-- This is no longer labelled as the chat container, so from now on it will be known as the border box where the login is located-->
     
-    <form>
-  <h1>LBTSMENTORS</h1>
-  <div class="inset">
-  <p>
-    <label for="email">EMAIL ADDRESS</label>
-    <input type="text" name="email" id="email">
-  </p>
-  <p>
-    <label for="password">PASSWORD</label>
-    <input type="password" name="password" id="password">
-  </p>
-  <p>
+        <form>
+          <h1>LBTSMENTORS</h1>
+          <div class="inset">
+              <p>
+                <label for="email">EMAIL ADDRESS</label>
+                <input type="text" name="email" id="email">
+              </p>
+              <p>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password">
+              </p>
+              <p>
     
-  </p>
-  </div>
-  <p class="p-container">
-    <span>Forgot password ?</span>
-    <input type="submit" name="go" id="go" value="Log in">
-  </p>
-</form>
-
+              </p>
+         </div>
+          <p class="p-container">
+            <span>Forgot password ?</span>
+           <input type="submit" name="go" id="go" value="Log in">
+         </p>
+        </form>
     </div>
-    
-    <!-- The top half of the background is sourced here-->
-    <img class="background_top" src="img/bgtop.png"/>
 
         <!-- this is the logo -->
     <div class="logo"   >
-
-        <img class="logo" src="img/logo.png" />
+         <img class="logo" src="img/logo.png" />
     </div>
 
-    <!-- This is the login banner -->
-    <div class="banner_container"   >
-        
-    </div>
-
+    <!-- this is the background image-->
+    <img class="background_top" src="img/bgtop.png"></img>
 
     <!-- this is the big 6 image -->
     <div class="bigsix_container"   >
-        <div id="bigsix_img" class="bigsix_normal"></div>
+         <div id="bigsix_img" class="bigsix_normal"></div>
     </div>
-
-    <!-- this is the trigger button for the animation. okay I fucked it up on purpose but it had to be done, gonna have to affix it to an html button.
-    EDIT: alright, screw the animation trigger, and screw the login banner. The black box is where the login will be and I will transfer a logn sequence I found in jscript in that container -->
 
     <!-- footer is located here -->
     <div class="footer_container"   >
-           <img class="footer" src="img/footer.png">
-           <div id="chatwing-button-7f7b6621-4ec1-4ae4-8ee4-ebdc3712401c"></div>
-        </div>
+          <img class="footer" src="img/footer.png">
+    </div>
 </body>
